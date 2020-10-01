@@ -39,11 +39,25 @@ This book is for Java and Spring developers and architects who want to learn how
 
 With the following software and hardware list you can run all code files present in the book (Chapter03-20).
 ### Software and Hardware List
-| Chapter | Software required | OS required |
+| No. | Software required | OS required |
 | -------- | ------------------------------------ | ----------------------------------- |
-|  |  |  |
+| 1 | Spring | Windows, macOS, Linux |
+| 2 | Docker CE | Windows, macOS, Linux, see [supported platforms](https://docs.docker.com/engine/install/#supported-platforms) |
 
 We also provide a PDF file that has color images of the screenshots/diagrams used in this book. [Click here to download it](https://static.packt-cdn.com/downloads/9781789613476_ColorImages.pdf).
+
+## Errata
+* Page 5 (Contributors): **My college Erik Lupander** _should be_ **My colleague Erik Lupander**
+
+* Page 14 (Paragraph 1, line 2): **that we were not exposed** _should be_ **that we were not exposed to**
+
+* Page 40 (Paragraph 3, line 1): **When the Spring Framework was released in v1.0 back in 2004, it was released in order to fix the overly complex…** _should be_ **The Spring Framework v1.0 was released back in 2004 to fix the overly complex…**
+
+* Page 102 (Last paragraph, line 2): **Once the CoreOS server has started running in its container you can, for example, ask what version of CoreOS that it runs with the cat /etc/redhat-release command.** _should be_ **Once the CoreOS server has started running in its container, you can, for example, ask what version of CoreOS it is running using the cat /etc/redhat-release command.**
+
+## Source code changes
+
+* July 26, 2020: Source code updated to use SpringFox 3.0.0, Spring Boot 2.3.2 and Spring Cloud Hoxton SR6. For details, see [added support for SpringFox 3.0.0](README_SpringFox-3.0.0_SpringBoot-2.3.2_SpringCloud-Hoxton-SR6.md). 
 
 ### Related products
 * Mastering Spring 5 - Second Edition  [[Packt]](https://www.packtpub.com/web-development/mastering-spring-5-1-second-edition?utm_source=github&utm_medium=repository&utm_campaign=9781789615692) [[Amazon]](https://www.amazon.com/dp/B07TZJG7BF)
